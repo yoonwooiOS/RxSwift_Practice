@@ -19,6 +19,15 @@
 		99B83AC22C590EC900E6805A /* SimpleUISwitchTextFeildButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B83AC12C590EC900E6805A /* SimpleUISwitchTextFeildButtonViewController.swift */; };
 		99B83AC52C59158A00E6805A /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 99B83AC42C59158A00E6805A /* Toast */; };
 		99B83AC72C59180C00E6805A /* ObservableExampleViewContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B83AC62C59180C00E6805A /* ObservableExampleViewContorller.swift */; };
+		99B83B152C5A17F400E6805A /* AddingNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B83B142C5A17F400E6805A /* AddingNumbersViewController.swift */; };
+		99B83B1B2C5A184300E6805A /* BaseColletciontViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B83B162C5A184300E6805A /* BaseColletciontViewCell.swift */; };
+		99B83B1C2C5A184300E6805A /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B83B172C5A184300E6805A /* BaseTableViewCell.swift */; };
+		99B83B1D2C5A184300E6805A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B83B182C5A184300E6805A /* BaseView.swift */; };
+		99B83B1E2C5A184300E6805A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B83B192C5A184300E6805A /* BaseViewController.swift */; };
+		99B83B202C5A20BA00E6805A /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B83B1F2C5A20BA00E6805A /* SimpleValidationViewController.swift */; };
+		99B83B222C5A329D00E6805A /* RxSimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B83B212C5A329D00E6805A /* RxSimpleTableViewController.swift */; };
+		99B83B242C5A377D00E6805A /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B83B232C5A377D00E6805A /* Wireframe.swift */; };
+		99B83B262C5A697600E6805A /* RxSimplePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B83B252C5A697600E6805A /* RxSimplePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +41,15 @@
 		99B83ABF2C5904BC00E6805A /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 		99B83AC12C590EC900E6805A /* SimpleUISwitchTextFeildButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleUISwitchTextFeildButtonViewController.swift; sourceTree = "<group>"; };
 		99B83AC62C59180C00E6805A /* ObservableExampleViewContorller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableExampleViewContorller.swift; sourceTree = "<group>"; };
+		99B83B142C5A17F400E6805A /* AddingNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingNumbersViewController.swift; sourceTree = "<group>"; };
+		99B83B162C5A184300E6805A /* BaseColletciontViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseColletciontViewCell.swift; sourceTree = "<group>"; };
+		99B83B172C5A184300E6805A /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		99B83B182C5A184300E6805A /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		99B83B192C5A184300E6805A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		99B83B1F2C5A20BA00E6805A /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
+		99B83B212C5A329D00E6805A /* RxSimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSimpleTableViewController.swift; sourceTree = "<group>"; };
+		99B83B232C5A377D00E6805A /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
+		99B83B252C5A697600E6805A /* RxSimplePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSimplePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,17 +86,51 @@
 		99B83AA02C58DC7800E6805A /* RxSwift_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				99B83B1A2C5A184300E6805A /* Base */,
+				99B83B132C5A0D8D00E6805A /* RxExample */,
+				99B83B122C5A0D4800E6805A /* Component */,
 				99B83AA12C58DC7800E6805A /* AppDelegate.swift */,
 				99B83AA32C58DC7800E6805A /* SceneDelegate.swift */,
-				99B83AA52C58DC7800E6805A /* SimplePickerViewController.swift */,
 				99B83AAA2C58DC7900E6805A /* Assets.xcassets */,
 				99B83AAC2C58DC7900E6805A /* LaunchScreen.storyboard */,
 				99B83AAF2C58DC7900E6805A /* Info.plist */,
+			);
+			path = RxSwift_Practice;
+			sourceTree = "<group>";
+		};
+		99B83B122C5A0D4800E6805A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				99B83AA52C58DC7800E6805A /* SimplePickerViewController.swift */,
 				99B83ABF2C5904BC00E6805A /* SimpleTableViewController.swift */,
 				99B83AC12C590EC900E6805A /* SimpleUISwitchTextFeildButtonViewController.swift */,
 				99B83AC62C59180C00E6805A /* ObservableExampleViewContorller.swift */,
 			);
-			path = RxSwift_Practice;
+			path = Component;
+			sourceTree = "<group>";
+		};
+		99B83B132C5A0D8D00E6805A /* RxExample */ = {
+			isa = PBXGroup;
+			children = (
+				99B83B232C5A377D00E6805A /* Wireframe.swift */,
+				99B83B142C5A17F400E6805A /* AddingNumbersViewController.swift */,
+				99B83B1F2C5A20BA00E6805A /* SimpleValidationViewController.swift */,
+				99B83B212C5A329D00E6805A /* RxSimpleTableViewController.swift */,
+				99B83B252C5A697600E6805A /* RxSimplePickerViewController.swift */,
+			);
+			path = RxExample;
+			sourceTree = "<group>";
+		};
+		99B83B1A2C5A184300E6805A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				99B83B162C5A184300E6805A /* BaseColletciontViewCell.swift */,
+				99B83B172C5A184300E6805A /* BaseTableViewCell.swift */,
+				99B83B182C5A184300E6805A /* BaseView.swift */,
+				99B83B192C5A184300E6805A /* BaseViewController.swift */,
+			);
+			name = Base;
+			path = ../../../week5/Recap/Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,10 +216,19 @@
 			files = (
 				99B83AA62C58DC7800E6805A /* SimplePickerViewController.swift in Sources */,
 				99B83AC22C590EC900E6805A /* SimpleUISwitchTextFeildButtonViewController.swift in Sources */,
+				99B83B262C5A697600E6805A /* RxSimplePickerViewController.swift in Sources */,
+				99B83B1E2C5A184300E6805A /* BaseViewController.swift in Sources */,
+				99B83B222C5A329D00E6805A /* RxSimpleTableViewController.swift in Sources */,
 				99B83AC72C59180C00E6805A /* ObservableExampleViewContorller.swift in Sources */,
 				99B83AA22C58DC7800E6805A /* AppDelegate.swift in Sources */,
+				99B83B1C2C5A184300E6805A /* BaseTableViewCell.swift in Sources */,
+				99B83B202C5A20BA00E6805A /* SimpleValidationViewController.swift in Sources */,
+				99B83B242C5A377D00E6805A /* Wireframe.swift in Sources */,
 				99B83AA42C58DC7800E6805A /* SceneDelegate.swift in Sources */,
 				99B83AC02C5904BC00E6805A /* SimpleTableViewController.swift in Sources */,
+				99B83B1D2C5A184300E6805A /* BaseView.swift in Sources */,
+				99B83B1B2C5A184300E6805A /* BaseColletciontViewCell.swift in Sources */,
+				99B83B152C5A17F400E6805A /* AddingNumbersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
